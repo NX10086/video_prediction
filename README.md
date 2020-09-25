@@ -1,12 +1,14 @@
-# video_prediction
+#  video_prediction #
 深度学习预测视频序列
-#开发环境：
+## 开发环境： ##
 win10+anaconda+python3.7 + tensorflow 1.14-gpu+pycharm
-#硬件：
+## 硬件： ##
 GTX 1060显卡
-#程序功能说明：
-- 
-Create_tfrecord.py和image_to_tfrecord.py用于将视频帧序列写入为TFrecord格式。
+##  程序功能说明 ： ##
+
+
+
+- Create_tfrecord.py和image_to_tfrecord.py用于将视频帧序列写入为TFrecord格式。
 
 
 - Lstm_ops.py是LSTM网络结构。
@@ -25,7 +27,7 @@ Create_tfrecord.py和image_to_tfrecord.py用于将视频帧序列写入为TFreco
 
 
 - Prediction_test.py 是用于测试的代码。
-#文件夹说明：
+## 文件夹说明 ##：
 
 
 - Grap 是存放用于预测输入的视频序列
@@ -35,6 +37,6 @@ Create_tfrecord.py和image_to_tfrecord.py用于将视频帧序列写入为TFreco
 
 
 - Output_test是用于存放输出的gif
-#特别说明：
+## 特别说明： ##
 程序中的数据集和模型因为太大，无法上传，详细请看论文。
 本程序完全用于学习，是针对原论文的复现。
